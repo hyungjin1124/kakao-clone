@@ -1,1 +1,20 @@
 @import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@import "status-bar.css";
+@import "header.css";
+@import "nav-bar.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  padding: 10px 20px; /*첫번째는 상하, 두번째는 좌우*/
+  color: #020202;
+}
+
+a {
+  color: inherit;
+}
