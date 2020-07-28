@@ -72,8 +72,7 @@
 
 .message{
   display: flex;
-  align-items: center;
-  width: 50%;
+  align-items: flex-start;
 }
 
 .chat__incoming-message {
@@ -103,6 +102,25 @@
 .message__content{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
+}
+
+.message__author{
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.chat__incoming-message .message__bubble{
+  border-bottom-left-radius: 0px;
+  background-image: linear-gradient(to right,#67B26F,#4ca2cd );
+  color: white;
+  font-weight: 600;
+}
+
+.chat__sent-message .message__bubble{
+  border-bottom-right-radius: 0px;
+  background-image: linear-gradient(to left,#67B26F,#4ca2cd );
+  color: white;
+  font-weight: 600;
 }
